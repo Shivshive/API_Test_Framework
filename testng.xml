@@ -1,0 +1,13 @@
+<suite name="Mobile Test" verbose="10">
+    <test name="Some Tests">
+        <groups>
+            <run>
+                <exclude name="anothertest"/>
+                <include name="sometest"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="simple.Test1"/>
+        </classes>
+    </test>
+</suite>

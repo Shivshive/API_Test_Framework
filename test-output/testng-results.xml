@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5207" started-at="2021-10-11T10:46:10 IST" finished-at="2021-10-11T10:46:15 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5207" started-at="2021-10-11T10:46:10 IST" finished-at="2021-10-11T10:46:15 IST">
+      <class name="simple.Test2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:simple.Test2@7403c468]" name="setUp" is-config="true" duration-ms="405" started-at="2021-10-11T10:46:09 IST" finished-at="2021-10-11T10:46:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:simple.Test2@7403c468]" name="beforeTest" is-config="true" duration-ms="2" started-at="2021-10-11T10:46:10 IST" finished-at="2021-10-11T10:46:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@421def93]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="checkQueryParam()[pri:0, instance:simple.Test2@7403c468]" name="checkQueryParam" duration-ms="2106" started-at="2021-10-11T10:46:10 IST" finished-at="2021-10-11T10:46:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkQueryParam -->
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:simple.Test2@7403c468]" name="beforeTest" is-config="true" duration-ms="1" started-at="2021-10-11T10:46:12 IST" finished-at="2021-10-11T10:46:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@421def93]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="JsonSchemaValidator()[pri:1, instance:simple.Test2@7403c468]" name="JsonSchemaValidator" duration-ms="1853" started-at="2021-10-11T10:46:12 IST" finished-at="2021-10-11T10:46:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JsonSchemaValidator -->
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:simple.Test2@7403c468]" name="beforeTest" is-config="true" duration-ms="2" started-at="2021-10-11T10:46:14 IST" finished-at="2021-10-11T10:46:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@421def93]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="checkHeader()[pri:2, instance:simple.Test2@7403c468]" name="checkHeader" duration-ms="314" started-at="2021-10-11T10:46:14 IST" finished-at="2021-10-11T10:46:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHeader -->
+        <test-method status="PASS" signature="deserializationTest()[pri:3, instance:simple.Test2@7403c468]" name="deserializationTest" duration-ms="427" started-at="2021-10-11T10:46:14 IST" finished-at="2021-10-11T10:46:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deserializationTest -->
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:simple.Test2@7403c468]" name="beforeTest" is-config="true" duration-ms="0" started-at="2021-10-11T10:46:14 IST" finished-at="2021-10-11T10:46:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@421def93]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:simple.Test2@7403c468]" name="beforeTest" is-config="true" duration-ms="1" started-at="2021-10-11T10:46:14 IST" finished-at="2021-10-11T10:46:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@421def93]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="serializationTest()[pri:4, instance:simple.Test2@7403c468]" name="serializationTest" duration-ms="22" started-at="2021-10-11T10:46:14 IST" finished-at="2021-10-11T10:46:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serializationTest -->
+        <test-method status="PASS" signature="jsonPathCheck()[pri:5, instance:simple.Test2@7403c468]" name="jsonPathCheck" duration-ms="237" started-at="2021-10-11T10:46:14 IST" finished-at="2021-10-11T10:46:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jsonPathCheck -->
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:simple.Test2@7403c468]" name="beforeTest" is-config="true" duration-ms="0" started-at="2021-10-11T10:46:14 IST" finished-at="2021-10-11T10:46:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@421def93]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:simple.Test2@7403c468]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-10-11T10:46:15 IST" finished-at="2021-10-11T10:46:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@421def93]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:simple.Test2@7403c468]" name="afterSuite" is-config="true" duration-ms="128" started-at="2021-10-11T10:46:15 IST" finished-at="2021-10-11T10:46:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- simple.Test2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

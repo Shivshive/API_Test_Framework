@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="simple.Test2">
+        <methods>
+          <include name="checkQueryParam"/>
+          <include name="serializationTest"/>
+          <include name="JsonSchemaValidator"/>
+          <include name="jsonPathCheck"/>
+          <include name="deserializationTest"/>
+          <include name="afterTest"/>
+          <include name="checkHeader"/>
+          <include name="setUp"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- simple.Test2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
